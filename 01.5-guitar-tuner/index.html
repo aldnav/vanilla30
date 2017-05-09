@@ -7,8 +7,38 @@
 <body>
 	<div class="container">
 		<div class="key-set">
-			
+			<div data-key="69" class="key">
+                <gstr>E</gstr>
+                <span class="sound">Low E</span>
+            </div>
+            <div data-key="65" class="key">
+                <gstr>A</gstr>
+                <span class="sound">A</span>
+            </div>
+            <div data-key="71" class="key">
+                <gstr>G</gstr>
+                <span class="sound">G</span>
+            </div>
+            <div data-key="66" class="key">
+                <gstr>B</gstr>
+                <span class="sound">B</span>
+            </div>
+            <div data-key="68" class="key">
+                <gstr>D</gstr>
+                <span class="sound">D</span>
+            </div>
+            <div data-key="69" class="key" data-alt-key="69">
+                <gstr>e</gstr>
+                <span class="sound">High E (Shift + e)</span>
+            </div>
 		</div>
+
+        <audio src="sounds/acoustic_28.mp3" data-key="69"></audio>
+        <audio src="sounds/acoustic_33.mp3" data-key="65"></audio>
+        <audio src="sounds/acoustic_38.mp3" data-key="71"></audio>
+        <audio src="sounds/acoustic_43.mp3" data-key="66"></audio>
+        <audio src="sounds/acoustic_47.mp3" data-key="68"></audio>
+        <audio src="sounds/acoustic_52.mp3" data-key="69" data-alt-key="69"></audio>
 	</div>
 	<script type="text/javascript" src="index.js"></script>
 </body>
