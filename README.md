@@ -9,5 +9,5 @@ Will also include variation of each challenge.
 
 | Index | Challenge | Variation | Complete?
 |-------|:---------:|:---------:|:-------:
-| 01 | Drumkit | Guitar Tuner | ✓ / ✗ |
+| 01 | Drumkit | Guitar Tuner | ✓ / ✓ |
 | 02 | JS and CSS Clock | Earth & Moon | ✗ / ✗ |
